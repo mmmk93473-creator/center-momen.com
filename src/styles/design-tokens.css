@@ -1,0 +1,88 @@
+:root {
+  /* Brand Emerald Palette */
+  --bg-primary: #071b13;
+  --bg-secondary: #0c261b;
+  --bg-tertiary: #113324;
+  --bg-card: rgba(17, 51, 36, 0.7);
+  --bg-card-hover: rgba(23, 67, 48, 0.85);
+  --bg-glass: rgba(7, 27, 19, 0.75);
+  --bg-glass-card: rgba(17, 51, 36, 0.45);
+  --bg-glass-border: rgba(212, 175, 55, 0.18);
+  
+  /* Luxury Gold Palette */
+  --gold-100: #fff8d6;
+  --gold-200: #fdf0b0;
+  --gold-300: #f8df7e;
+  --gold-400: #e9c855;
+  --gold-500: #d4af37;
+  --gold-600: #b88d22;
+  --gold-700: #8c6a15;
+  
+  /* Dress Sage Green Accents (from visual sequence) */
+  --sage-100: #eaf0e8;
+  --sage-200: #d2ded0;
+  --sage-300: #aebfb0;
+  --sage-400: #8a9e8c;
+  --sage-500: #667c69;
+
+  /* Cream & White Hierarchy */
+  --text-primary: #fcfbfa;
+  --text-secondary: #e2dbce;
+  --text-muted: #a39c91;
+  --text-dim: #706a61;
+
+  /* Semantic Feedback */
+  --color-success: #2ec4b6;
+  --color-danger: #e63946;
+  --color-warning: #f4a261;
+  
+  /* Borders */
+  --border-subtle: rgba(212, 175, 55, 0.12);
+  --border-medium: rgba(212, 175, 55, 0.28);
+  --border-bright: rgba(212, 175, 55, 0.55);
+
+  /* Gradients */
+  --gradient-gold: linear-gradient(135deg, #fdf0b0 0%, #d4af37 45%, #b88d22 100%);
+  --gradient-gold-text: linear-gradient(135deg, #fff7d6 0%, #d4af37 55%, #f4d06f 100%);
+  --gradient-emerald-hero: linear-gradient(180deg, #071b13 0%, #0d281e 50%, #071b13 100%);
+  --gradient-card-radial: radial-gradient(circle at top right, rgba(212, 175, 55, 0.08) 0%, transparent 70%);
+
+  /* Typography */
+  --font-sans: 'Alexandria', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-serif: 'Amiri', Georgia, serif;
+  --font-editorial: 'Playfair Display', Georgia, serif;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.45);
+  --shadow-gold: 0 0 25px rgba(212, 175, 55, 0.2);
+  --shadow-gold-hover: 0 0 35px rgba(212, 175, 55, 0.35);
+
+  /* Spacing Scale */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4.5rem;
+  --space-4xl: 6rem;
+
+  /* Radii */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 300ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 600ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-spring: 450ms cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* Container width */
+  --container-max: 1360px;
+}
